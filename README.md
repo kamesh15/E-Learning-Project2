@@ -6,27 +6,17 @@ This application mainly focuses on providing different courses to the students a
 
 CONCEPTS AND TECHNOLOGIES COVERED WITH THIS APPLICATION ARE :
 
-*Java OOP
-
-*Collections
-
-Control Statements
-
-Exceptions
-
-Maven Project
-
-Spring Data
-
-Spring Boot
-
-Angular
-
-JUnit
-
-Java 
-
-MySQL
+* Java OOP
+* Collections
+* Control Statements
+* Exceptions
+* Maven Project
+* Spring Data
+* Spring Boot
+* Angular
+* JUnit
+* Java 
+* MySQL
 
 Project Presentation link:
 https://1drv.ms/p/s!AtgvU0td0j6WgiQ7mPaPVckC_gW_?e=iiM7Gi
