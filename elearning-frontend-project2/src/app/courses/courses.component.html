@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="mb-3">Courses</h3>
+      <button class="btn btn-success mb-2" routerLink="/add-course">
+        Add Course
+      </button>
+      <table class="table" id="table">
+        <thead class="table-dark">
+          <tr>
+            <td>#</td>
+            <td>Title</td>
+            <td>Category</td>
+            <td>Action</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let course of courses">
+            <td>{{course.id}}</td>
+            <td>{{course.title}}</td>
+            <td>{{course.category}}</td>
+            <td>
+              <button (click)="updateCourse({course})" class="btn btn-primary">Update</button>
+              <button (click)="deleteCourse(course.id)" class="btn btn-danger">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<app-studentnav></app-studentnav>
+<section class="mt-4">
+  <div class="container">
+    <div class="row">
+      <h2>Courses</h2>
+      <div class="col-md-12 d-flex flex-wrap">
+        <div class="card" style="width: 18rem;margin-right:20px;margin-bottom:20px" *ngFor="let course of courses">
+          <img class="card-img-top" src="{{course.imageUrl}}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{course.title}}</h5>
+            <p class="card-text">{{course.content}}</p>
+            <button class="btn btn-success" (click)="enrollCourse(course.id)">Enroll</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

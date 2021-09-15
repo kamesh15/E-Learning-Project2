@@ -1,0 +1,26 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="mb-3">Students</h3>
+      <table class="table" id="table">
+        <thead class="table-dark">
+          <tr>
+            <td>#</td>
+            <td>Name</td>
+            <td>Phone number</td>
+            <td>Email</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of students">
+            <td>{{student.id}}</td>
+            <td>{{student.name}}</td>
+            <td>{{student.phoneNumber}}</td>
+            <td>{{student.email}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

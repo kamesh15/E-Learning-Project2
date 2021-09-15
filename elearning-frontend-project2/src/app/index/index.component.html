@@ -1,0 +1,36 @@
+<app-indexnav></app-indexnav>
+<section
+  style="background:url(https://news.blr.com/app/uploads/sites/4/2018/11/AI-Machine-Learning.jpg);height:80vh;background-repeat:no-repeat;background-size:cover">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-white mt-5 shadow-lg" style="font-size:200px;">E-Learning</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="mt-4">
+  <div class="container">
+    <div class="row">
+      <h2>Courses</h2>
+      <div class="col-md-12 d-flex flex-wrap">
+        <div class="card" style="width: 18rem;margin-right:20px;margin-bottom:20px" *ngFor="let course of courses">
+          <img class="card-img-top" src="{{course.imageUrl}}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{course.title}}</h5>
+            <p class="card-text">{{course.content}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-dark pt-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-light">Developed by <span class="text-warning h6">team 2</span></p>
+      </div>
+    </div>
+  </div>
+</section>
