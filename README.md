@@ -6,9 +6,9 @@ This application mainly focuses on providing different courses to the students a
 
 CONCEPTS AND TECHNOLOGIES COVERED WITH THIS APPLICATION ARE :
 
-Java OOP
+*Java OOP
 
-Collections
+*Collections
 
 Control Statements
 
