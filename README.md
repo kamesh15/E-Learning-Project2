@@ -49,3 +49,8 @@ Student:
 * Enroll Course
 * View all enrolled Courses
 
+# Usage
+* Run maven build
+* Run Angular application
+* Get started with home page with sign up and login validations
+* Continue to use the user interface accordingly
